@@ -1,0 +1,28 @@
+{
+  "name": "kx_utils",
+  "version": "1.0.5",
+  "description": "轻便、快捷、实用的成长型自定义工具函数库",
+  "main": "index.js",
+  "scripts": {
+    "build:hot": "webpack --watch",
+    "build": "webpack",
+    "dev": "webpack-dev-server"
+  },
+  "keywords": [
+    "methods",
+    "js",
+    "js方法库",
+    "kx_utils",
+    "utils",
+    "array",
+    "object"
+  ],
+  "author": "sweet",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.0.0"
+  },
+"files":["dist","README.md"]
+}
